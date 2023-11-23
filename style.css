@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    background: #AEE6D5;
+    color: black;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(to right, #00884C, #9ECC9E);
+    background-image: url("leaf.jpg");
+    padding: 1.5em;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #1e1e1e;
+    padding: 1em;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 1.5em;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.hero {
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #00884C, #9ECC9E);
+    color: white;
+    text-align: center;
+    padding: 4em;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    margin-top: 0.4rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.cta-button-top {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button-top:hover {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.moving-graphics {
+    text-align: center;
+    padding: 2em;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.logo {
+    margin-top: 1rem;
+}
+
+.large-image {
+    font-size: 1.2rem;
+    background: #13A96A;
+    color: white;
+    text-align: center;
+    padding: 4em;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    padding: 2em;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 0px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
